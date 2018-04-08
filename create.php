@@ -53,6 +53,7 @@
             $stmt->bindParam(':created', $created);
                  
                 // Execute the query
+
                 if($stmt->execute()){
                     echo "<div class='alert alert-success'>Record was saved.</div>";
                 }else{
